@@ -61,13 +61,6 @@ body {
     z-index: 1;
     justify-content: flex-start;
 }
-.repos{
-    max-width: 100%;
-    background-color: #c8d1dbe2;
-    padding: 10px;
-    display: flex;
-    height: 100vh;
-}
 .contacto{
     display: flex;
     background-color: #01264ee2;
@@ -244,13 +237,13 @@ body {
     align-items: center;
     flex-direction: row;
     width: 99%;
-    height: 50%;
+    height: 60%;
     border-radius: 17px;
     overflow: hidden;
     box-shadow: 4px 1px 10px 11px rgb(10 9 9 / 40%);
     justify-content: flex-end;
 }
-.progresado {
+.progresado1 {
     background-color: #3498db;
     width: 75%;
     display: flex;
@@ -258,8 +251,72 @@ body {
     align-items: center;
     height: 100%;
 }
-.faltante {
+.faltante1 {
     width: 25%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.progresado2 {
+    background-color: #3498db;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.faltante2 {
+    width: 50%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.progresado3 {
+    background-color: #3498db;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.faltante3 {
+    width: 80%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.progresado4 {
+    background-color: #3498db;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.faltante4 {
+    width: 50%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.progresado5 {
+    background-color: #3498db;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.faltante5 {
+    width: 60%;
     background-color: #000000;
     display: flex;
     justify-content: center;
@@ -316,4 +373,63 @@ a:hover {
     color: #ffffff;
     font-family: "Arial",serif;
     
+}
+.mis-proyectos {
+    display: flex;
+    height: 100vh;
+    background-color: #c8d1dbe2;
+    align-items: center;
+    flex-direction: column;
+}
+.container-proyectos{
+    justify-content: space-around;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta-container {
+    width: 35%;
+    background-color: #dcdada;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.tarjeta-container:hover {
+    transform: scale(1.05); 
+}
+
+.imagen-container {
+    width: 100%;
+    text-align: center;
+    max-height: 50%;
+}
+
+.img-proyecto {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-proyecto img {
+    width: 100%;
+    height: 173px;
+}
+
+.descripcion-proyecto {
+    margin-top: 15%;
+}
+
+.descripcion-proyecto p {
+    margin-top: 5%;
+    text-decoration: underline;
+    font-weight: bold;
 }
